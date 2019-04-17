@@ -7,8 +7,11 @@ public class Animal {
  public void setName(String newName) { //metoda
   name=newName;
   }
+  public static void main(String[] args){
+  
+  }
 }
-//clase VS fisiere
+/*clase VS fisiere
 
 class Animal {
   String name;
@@ -19,3 +22,4 @@ class Animal {
   }
   class Animal2 {
   }
+  */
