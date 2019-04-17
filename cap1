@@ -1,0 +1,21 @@
+//variabile si metode
+public class Animal {
+  String name; //variabila
+ public String getName() { //metoda
+  return name;
+}
+ public void setName(String newName) { //metoda
+  name=newName;
+  }
+}
+//clase VS fisiere
+
+class Animal {
+  String name;
+ } // default class
+ 
+ public class Animal {
+  private String name;
+  }
+  class Animal2 {
+  }
